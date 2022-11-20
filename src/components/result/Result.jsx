@@ -111,6 +111,7 @@ const Result = () => {
         >
           <Stack marginTop={'20px'} direction={['column', 'row']}>
             <VStack
+            width={["95%","65%","70%","100%"]}
               align={'flex-start'}
               fontSize={'20px'}
               color={'#5e5e73'}
@@ -127,7 +128,7 @@ const Result = () => {
                 Test time: {hours < 10 ? '0' + hours : hours} :{' '}
                 {minutes < 10 ? '0' + minutes : minutes} :{' '}
                 {seconds < 10 ? '0' + seconds : seconds}, average users
-                00:02:51.
+                00:01:51.
               </Text>
               <Text>
                 <b>Your IQ is {iqLevel}</b>. This corresponds to a {average}{' '}
@@ -146,13 +147,13 @@ const Result = () => {
                 practice questions and they do not count towards the final
                 result.{' '}
               </Text>
-              <Box>
+              <Box width={"100%"} >
                 <Text>
                   <b>Permanent result link:</b>
                 </Text>
-                <a href="/" style={{ color: '#02A0EA' }}>
+                <span href="/" style={{ color: '#02A0EA' }}>
                   https://en.testometrika.com/a/1Dp6t5VY7lh30bkjp%252BAjHw/
-                </a>
+                </span>
                 <Button ml={'10px'} color={'blackAlpha.400'}>
                   copy
                 </Button>
@@ -172,9 +173,9 @@ const Result = () => {
             {/* Box2 */}
             <Box color={'#5e5e73'}>
               <VStack
-                marginLeft={['0', '80px', '30px', '10px', '95px']}
+                marginLeft={['0', '2px', '30px', '10px', '95px']}
                 height="265px"
-                width={'260px'}
+                width={["40%","50px","100px",'260px']}
                 // border={'1px solid red'}
                 alignItems={'flex-start'}
               >

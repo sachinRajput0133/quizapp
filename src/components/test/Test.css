@@ -65,3 +65,17 @@
     font-family: 'Courier New', Courier, monospace;
 
 }
+@media screen and (max-width:200px) {
+    .button{
+       
+        width: 100px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .button{
+       
+        width: 150px;
+    }
+    
+}
