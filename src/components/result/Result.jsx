@@ -127,7 +127,7 @@ const Result = () => {
                 Test time: {hours < 10 ? '0' + hours : hours} :{' '}
                 {minutes < 10 ? '0' + minutes : minutes} :{' '}
                 {seconds < 10 ? '0' + seconds : seconds}, average users
-                00:09:51.
+                00:02:51.
               </Text>
               <Text>
                 <b>Your IQ is {iqLevel}</b>. This corresponds to a {average}{' '}
