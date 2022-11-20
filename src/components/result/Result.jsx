@@ -1,6 +1,6 @@
 import { Box, Button, HStack, Stack, Text, VStack } from '@chakra-ui/react';
 
-import { FaRedoAlt } from 'react-icons/fa';
+
 import React, { useContext } from 'react';
 import './Result.css';
 import { IoLogoWhatsapp } from 'react-icons/io';
@@ -109,7 +109,7 @@ const Result = () => {
           marginRight={['1vw', '6vw', '10vw', '15vw']}
           paddingBottom={'50px'}
         >
-          <Stack marginTop={'20px'} direction={['column', 'row']}>
+          <Stack marginTop={'20px'} direction={['column', 'row']} >
             <VStack
             width={["95%","65%","70%","100%"]}
               align={'flex-start'}
