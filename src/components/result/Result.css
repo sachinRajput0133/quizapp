@@ -1,0 +1,147 @@
+.resultContainer{
+    /* color: #fff; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding: 80px 0 50px; */
+}
+.result-header{
+    width: 100%;
+    padding: 30px 20px;
+}
+.headingContainer>p{
+    font-size: 18px;
+    color: rgba(211, 200, 200, 0.842);
+    font-weight: 600;
+}
+.headingContainer>h1{
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+}
+
+.result-body{
+    background-color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.takeTestAgainbutton{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    max-width: 250px;
+    padding: 0 22px;
+    height: 58px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    background-color: #595c9c;
+  
+    -moz-osx-font-smoothing: grayscale;
+    cursor: pointer;
+    font-family: 'BS', Roboto, Arial, sans-serif;
+    transition:  0.1s ease-in ;
+    
+}
+
+.takeTestAgainbutton > img:hover{
+    opacity: 0.5;
+   transition: all 0.2s ;
+  
+  
+}
+.takeTestAgainbutton:hover{
+    border: 3px solid white;
+    background-color: #6b6fbc;
+}
+.shareResultIcons>svg{
+  font-size: 30px;
+  fill:#4c85cf;
+  cursor: pointer;
+}
+.shareResultIcons>svg:hover{
+  font-size: 30px;
+  fill:#3172c7;
+  cursor: pointer;
+}
+.shareResultIcons>svg:first-child{
+    fill: green;
+}
+.shareResultIcons>svg:first-child:hover{
+    fill: rgb(56, 165, 56);
+}
+.shareResultIcons>svg:nth-last-child(2){
+    fill: rgb(201, 73, 73);
+}
+.shareResultIcons>svg:nth-last-child(2):hover{
+    fill: rgb(138, 61, 61);
+}
+.shareResultIcons>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: grey;
+    background-color: rgba(209, 201, 201, 0.411);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.shareResultIcons>span:hover{
+   
+    background-color: rgba(190, 178, 178, 0.411);
+  
+}
+.socialMedia>svg{
+    font-size: 30px;
+        fill: #8b9ead;
+        transition: all 0.2s ease-in;
+}
+.socialMedia>svg:hover{
+    font-size: 30px;
+        fill: #778b9b;
+}
+.AppstoreContainer{
+    opacity: 0.3;
+}
+.AppstoreContainer:hover{
+    opacity: 0.5;
+}
+
+.svg{
+    font-size: 100px ;
+    font-weight: 100px ;
+    
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.starIconContainer>div>svg{
+    color: #faaf00;
+    font-size: 30px;
+    margin: 0 !important;
+
+}
+.starIconContainer>p{
+    margin-top: 0 !important;
+}
+
+
+
